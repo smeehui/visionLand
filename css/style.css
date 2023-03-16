@@ -144,7 +144,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   .site-section {
-    padding: 7em 0;
+    padding: 3em 0;
   }
 }
 .site-section.site-section-sm {
@@ -197,7 +197,9 @@ a:hover {
 }
 
 @media (max-width: 767.98px) {
-  .display-3, .display-2, .display-4 {
+  .display-3,
+  .display-2,
+  .display-4 {
     font-size: 2rem !important;
   }
 }
@@ -286,7 +288,10 @@ a:hover {
 .site-footer p {
   color: #737373;
 }
-.site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.site-footer h5 {
   color: #fff;
 }
 .site-footer a {
@@ -1167,6 +1172,11 @@ a:hover {
 .gal-item:hover img {
   cursor: zoom-in;
   opacity: 0.5;
+}
+
+.news-img {
+  width: 320px;
+  height: 220px;
 }
 
 /*# sourceMappingURL=style.css.map */
