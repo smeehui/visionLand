@@ -744,7 +744,6 @@ a {
   letter-spacing: .1em; }
 
 .form-search {
-  background: #364e68;
   position: relative;
   z-index: 1;
   padding: 3rem 2rem;
@@ -754,7 +753,7 @@ a {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .1em;
-    color: rgba(255, 255, 255, 0.3); }
+    color:rgb(255 255 255); }
   .form-search .form-control {
     border: none; }
   .form-search .btn[type="submit"] {
