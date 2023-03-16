@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.59.3",
+    "yarn": "^1.22.19"
+  },
+  "name": "Web100_VisionLand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/smeehui/visionLand.git",
+  "author": "TrongAnh16 <anhtrduong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "convert-css":"sass --watch scss\\style.scss css\\style.css"
+  }
+}
+
