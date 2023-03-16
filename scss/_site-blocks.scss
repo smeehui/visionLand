@@ -11,6 +11,7 @@
             bottom: 0;
             right: 0;
             top: 0;
+            background: rgba($black, 0.4);
         }
     }
     &,
@@ -182,8 +183,10 @@
             border-radius: 4px;
         }
         img {
-            transition: 0.3s all ease;
+            transition: 0.1s all ease;
             transform: scale(1);
+            width: 320px;
+            height: 220px;
         }
     }
     .property-title {
@@ -265,18 +268,17 @@
 }
 
 .site-section-title {
-	h2 {
-		text-transform: uppercase;
-		color: $black;
-		font-weight: 700;
-		font-size: 2rem;
-		letter-spacing: .1em;
-		padding-bottom: 40px;
-	}
+    h2 {
+        text-transform: uppercase;
+        color: $black;
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
 }
 
 .form-search {
-    background: #36655a73;
+    background: #364e68;
     position: relative;
     z-index: 1;
     padding: 3rem 2rem;
@@ -288,16 +290,10 @@
         color: rgba($white, 0.3);
     }
     .form-control {
-        border-radius: 15px;
+        border: none;
     }
     .btn[type="submit"] {
-        border-radius: 15px;
-        padding: 0 40px;
-        height: 35px;
-        margin-right: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 47px;
     }
 }
 
@@ -586,22 +582,10 @@
         }
     }
 }
+// Custom css
 
-.select-wrap input {
-    position: relative;
-    float: left;
-}
-
-#search {
-    position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 47px;
-    max-width: 10%;
-}
-
-.site-navbar .site-navigation .site-menu > li > a{
-    letter-spacing: 0;
+.news-img {
+    width: 320px;
+    height: 220px;
+    border-radius: 5px;
 }
