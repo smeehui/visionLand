@@ -5,7 +5,7 @@
   <title>Homeland &mdash; Colorlib Website Template</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -91,46 +91,51 @@
   </div>
 
   <div class="slide-one-item home-slider owl-carousel">
-    <div class="site-blocks-cover overlay"
-      style="background-image: url(images/background.jpg);" data-aos="fade"
+    <div class="site-blocks-cover overlay" style="background-image: url(images/vision_logo_congty.jpg);" data-aos="fade"
       data-stellar-background-ratio="0.5">
     </div>
   </div>
 
-
   <div class="site-section site-section-sm pb-0">
     <div class="container">
       <div class="row">
-        <form class="form-search col-md-12" style="margin-top: -450px;">
+        <form class="form-search col-md-12" style="margin-top: -521px; height: 50%;">
           <div class="row  align-items-end">
+            <div class="col-md-12 mb-3">
+              <div class="select-wrap">
+                <input class="form-control d-block " placeholder="Tìm kiếm">
+              </div>
+              <div class="col-md-3" id="search">
+                <button type="submit" class="btn btn-success text-white btn-block" value="Search" style="background-color: #fbff00;">
+                  <i class="fa-solid fa-magnifying-glass"></i>  
+                </button>
+              </div>
+            </div>
             <div class="col-md-3">
-              <label for="list-types">Địa điểm</label>
               <div class="select-wrap">
                 <span class="icon icon-arrow_drop_down"></span>
-                <select name="list-types" id="list-types" class="form-control d-block rounded-0">
-                  <option value="">Condo</option>
+                <select name="list-types" id="list-types" class="form-control d-block">
+                  <option value="">Địa điểm</option>
                   <option value="">Commercial Building</option>
                   <option value="">Land Property</option>
                 </select>
               </div>
             </div>
             <div class="col-md-3">
-              <label for="offer-types">Giá</label>
               <div class="select-wrap">
                 <span class="icon icon-arrow_drop_down"></span>
-                <select name="offer-types" id="offer-types" class="form-control d-block rounded-0">
-                  <option value="">For Sale</option>
+                <select name="offer-types" id="offer-types" class="form-control d-block">
+                  <option value="">Mức giá</option>
                   <option value="">For Rent</option>
                   <option value="">For Lease</option>
                 </select>
               </div>
             </div>
             <div class="col-md-3">
-              <label for="select-city">Hướng</label>
               <div class="select-wrap">
                 <span class="icon icon-arrow_drop_down"></span>
-                <select name="select-city" id="select-city" class="form-control d-block rounded-0">
-                  <option value="">New York</option>
+                <select name="select-city" id="select-city" class="form-control d-block">
+                  <option value="">Diện tích</option>
                   <option value="">Brooklyn</option>
                   <option value="">London</option>
                   <option value="">Japan</option>
@@ -138,8 +143,17 @@
                 </select>
               </div>
             </div>
-            <div class="col-md-3">
-              <input type="submit" class="btn btn-success text-white btn-block rounded-0" value="Search">
+            <div class="col-md-3" >
+              <div class="select-wrap">
+                <span class="icon icon-arrow_drop_down"></span>
+                <select name="select-city" id="select-city" class="form-control d-block">
+                  <option value="">Hướng</option>
+                  <option value="">Brooklyn</option>
+                  <option value="">London</option>
+                  <option value="">Japan</option>
+                  <option value="">Philippines</option>
+                </select>
+              </div>
             </div>
           </div>
         </form>

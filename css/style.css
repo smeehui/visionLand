@@ -644,7 +644,6 @@ a:hover {
   bottom: 0;
   right: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.4);
 }
 .site-blocks-cover,
 .site-blocks-cover .row {
@@ -888,7 +887,7 @@ a:hover {
 }
 
 .form-search {
-  background: #364e68;
+  background: rgba(54, 101, 90, 0.4509803922);
   position: relative;
   z-index: 1;
   padding: 3rem 2rem;
@@ -901,10 +900,16 @@ a:hover {
   color: rgba(255, 255, 255, 0.3);
 }
 .form-search .form-control {
-  border: none;
+  border-radius: 15px;
 }
 .form-search .btn[type=submit] {
-  height: 47px;
+  border-radius: 15px;
+  padding: 0 40px;
+  height: 35px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .select-wrap {
@@ -1165,6 +1170,25 @@ a:hover {
 .gal-item:hover img {
   cursor: zoom-in;
   opacity: 0.5;
+}
+
+.select-wrap input {
+  position: relative;
+  float: left;
+}
+
+#search {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 47px;
+  max-width: 10%;
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+  letter-spacing: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

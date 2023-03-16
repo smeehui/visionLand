@@ -11,7 +11,6 @@
             bottom: 0;
             right: 0;
             top: 0;
-            background: rgba($black, 0.4);
         }
     }
     &,
@@ -276,7 +275,7 @@
 }
 
 .form-search {
-    background: #364e68;
+    background: #36655a73;
     position: relative;
     z-index: 1;
     padding: 3rem 2rem;
@@ -288,10 +287,16 @@
         color: rgba($white, 0.3);
     }
     .form-control {
-        border: none;
+        border-radius: 15px;
     }
     .btn[type="submit"] {
-        height: 47px;
+        border-radius: 15px;
+        padding: 0 40px;
+        height: 35px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -579,4 +584,23 @@
             opacity: 0.5;
         }
     }
+}
+
+.select-wrap input {
+    position: relative;
+    float: left;
+}
+
+#search {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 47px;
+    max-width: 10%;
+}
+
+.site-navbar .site-navigation .site-menu > li > a{
+    letter-spacing: 0;
 }
