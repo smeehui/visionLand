@@ -649,7 +649,6 @@ a:hover {
   bottom: 0;
   right: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.4);
 }
 .site-blocks-cover,
 .site-blocks-cover .row {
@@ -805,10 +804,8 @@ a:hover {
   border-radius: 4px;
 }
 .property-entry .property-thumbnail img {
-  transition: 0.1s all ease;
+  transition: 0.3s all ease;
   transform: scale(1);
-  width: 320px;
-  height: 220px;
 }
 .property-entry .property-title {
   font-size: 1.2rem;
@@ -892,11 +889,10 @@ a:hover {
   font-weight: 700;
   font-size: 2rem;
   letter-spacing: 0.1em;
-  padding-bottom: 40px;
 }
 
 .form-search {
-  background: #364e68;
+  background: rgba(54, 101, 90, 0.4509803922);
   position: relative;
   z-index: 1;
   padding: 3rem 2rem;
@@ -909,10 +905,16 @@ a:hover {
   color: rgba(255, 255, 255, 0.3);
 }
 .form-search .form-control {
-  border: none;
+  border-radius: 15px;
 }
 .form-search .btn[type=submit] {
-  height: 47px;
+  border-radius: 15px;
+  padding: 0 40px;
+  height: 35px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .select-wrap {
