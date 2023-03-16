@@ -1177,6 +1177,7 @@ a:hover {
 .news-img {
   width: 320px;
   height: 220px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
