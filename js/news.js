@@ -10,6 +10,7 @@ const newsPage = () => {
     };
 
     page.elements.newsContainer = $("#newsContainer");
+    page.elements.newsColumn = $("#newsColumn");
 
     //  Load data
 
@@ -21,12 +22,14 @@ const newsPage = () => {
     };
 
     page.commands.appendAllNews = () => {
-        page.commands.loadData.allNews()
-        .then((data) => {
+        page.commands.loadData.allNews().then((data) => {
             page.elements.newsContainer.empty();
-            $.each(data, (index,item) => {
+            page.elements.newsColumn.empty();
+            $.each(data, (index, item) => {
                 let newCard = page.commands.renderNewsCard(item);
-                page.elements.newsContainer.prepend(newCard)
+                let newRow = page.commands.renderNewsRow(item);
+                page.elements.newsContainer.prepend(newCard);
+                page.elements.newsColumn.prepend(newRow);
             });
         });
     };
@@ -38,14 +41,14 @@ const newsPage = () => {
     //  Render
 
     page.commands.renderNewsCard = (news) => {
-        const { title, cover, previewText } = news;
+        const { title, cover, previewText, id } = news;
         return `
                   <div
-                     class="col-md-6 col-lg-4 mb-4"
+                     class="col-md-6 col-lg-4 col-sm-12 mb-4"
                      data-aos="fade-up"
                      data-aos-delay="100"
                >
-                     <a href="#"
+                     <a href="news/${id}"
                         ><img
                            src=${cover}
                            class="news-img"
@@ -58,7 +61,7 @@ const newsPage = () => {
                            >Jan 20th, 2019</span
                         >
                         <h2 class="h5 text-black mb-3">
-                           <a href="#"
+                           <a href="news/${id}"
                                  >${title}</a
                            >
                         </h2>
@@ -70,8 +73,34 @@ const newsPage = () => {
       `;
     };
 
+    page.commands.renderNewsRow = (news) => {
+        const { title, id } = news;
+        return ` <tr>
+                    <td><a href="news/${id}">${title}</a></td>
+                </tr>`;
+    };
+
+    page.commands.initCarousel = () => {
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            stagePadding: 0,
+            autoplay: true,
+            margin: 20,
+            nav: false,
+            dots: true,
+            center: true,
+            nav: true,
+            navText: [
+                '<span class="icon-arrow_back">',
+                '<span class="icon-arrow_forward">',
+            ],
+        });
+    };
+
     return () => {
         page.commands.loadData.handleLoadData();
+        page.commands.initCarousel();
     };
 };
 $(() => {

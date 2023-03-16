@@ -28,6 +28,24 @@
         <link rel="stylesheet" href="css/aos.css" />
 
         <link rel="stylesheet" href="css/style.css" />
+        <style>
+            .owl-nav {
+                position: relative;
+                padding-top: 10px;
+            }
+            .owl-prev {
+                position: absolute;
+                right: 70%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .owl-next {
+                position: absolute;
+                left: 70%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        </style>
     </head>
     <body>
         <div class="site-loader"></div>
@@ -143,10 +161,99 @@
                     <div class="col-lg-9 col-md-10 col-sm-12">
                         <div class="site-section">
                             <div class="container">
-                              <div >
-                                <p class="h2 w-100 text-lg-left">Tin nổi bật</p>
-                              </div>
-                                <div class="row">
+                                <div></div>
+                                <p class="h2 text-lg-left text-sm-center">
+                                    Tin nổi bật
+                                </p>
+                            </div>
+                            <div class="row owl-carousel owl-theme m-0">
+                                <div class="d-lg-flex d-md-flex">
+                                    <div
+                                        class="col-md-6 col-sm-12"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <img
+                                            src="images/about.jpg"
+                                            alt="Image"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-md-5 col-sm-12 ml-auto"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <div class="site-section-title">
+                                            <h2>Our Company</h2>
+                                        </div>
+                                        <p class="lead">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Natus
+                                            in cum odio.
+                                        </p>
+                                        <p>
+                                            Illum repudiandae ratione facere
+                                            explicabo. Consequatur dolor optio
+                                            iusto, quos autem voluptate ea? Sunt
+                                            laudantium fugiat, mollitia
+                                            voluptate? Modi blanditiis veniam
+                                            nesciunt architecto odit voluptatum
+                                            tempore impedit magnam itaque natus!
+                                        </p>
+                                        <p>
+                                            <a
+                                                href="#"
+                                                class="btn btn-outline-primary rounded-0 py-2 px-5"
+                                                >Read More</a
+                                            >
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-lg-flex d-md-flex">
+                                    <div
+                                        class="col-md-6 col-sm-12"
+                                        data-aos="fade-up"
+                                        data-aos-delay="100"
+                                    >
+                                        <img
+                                            src="images/about.jpg"
+                                            alt="Image"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-md-5 col-sm-12 ml-auto"
+                                        data-aos="fade-up"
+                                        data-aos-delay="200"
+                                    >
+                                        <div class="site-section-title">
+                                            <h2>Our Company</h2>
+                                        </div>
+                                        <p class="lead">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Natus
+                                            in cum odio.
+                                        </p>
+                                        <p>
+                                            Illum repudiandae ratione facere
+                                            explicabo. Consequatur dolor optio
+                                            iusto, quos autem voluptate ea? Sunt
+                                            laudantium fugiat, mollitia
+                                            voluptate? Modi blanditiis veniam
+                                            nesciunt architecto odit voluptatum
+                                            tempore impedit magnam itaque natus!
+                                        </p>
+                                        <p>
+                                            <a
+                                                href="#"
+                                                class="btn btn-outline-primary rounded-0 py-2 px-5"
+                                                >Read More</a
+                                            >
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-lg-flex d-md-flex">
                                     <div
                                         class="col-md-6"
                                         data-aos="fade-up"
@@ -399,18 +506,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-2 col-sm-0">
+                    <div class="col-lg-3 col-md-2 col-sm-0 position-relative">
                         <div
-                            class="contaier-fluid position-sticky site-section"
-                            style="top: 20px"
+                            class="contaier-fluid site-section position-sticky"
+                            style="
+                                top: 20px;
+                                overflow-y: scroll;
+                                overflow-x: hidden;
+                                height: 80vh;
+                            "
                         >
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Tin tức</th>
+                                        <th scope="col">
+                                            <p class="h4">Tin tức</p>
+                                        </th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="newsColumn">
                                     <tr>
                                         <td>Bán nhà 50 tỷ</td>
                                     </tr>
