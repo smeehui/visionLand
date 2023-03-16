@@ -1,0 +1,14 @@
+{
+  "name": "visionLand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/smeehui/visionLand.git",
+  "author": "smeehui <nguyenvanquanghuy99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.59.3"
+  },
+  "scripts": {
+    "convert-css":"sass --watch scss\\style.scss css\\style.css"
+  }
+}
