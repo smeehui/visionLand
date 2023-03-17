@@ -81,7 +81,9 @@ const newsPage = () => {
     };
 
     page.commands.initCarousel = () => {
-        $(".owl-carousel").owlCarousel({
+        page.elements.Owl = $(".owl-carousel");
+
+        page.elements.Owl.owlCarousel({
             items: 1,
             loop: true,
             stagePadding: 0,
@@ -96,11 +98,22 @@ const newsPage = () => {
                 '<span class="icon-arrow_forward">',
             ],
         });
+        page.elements.Owl.trigger("play.owl.autoplay", [2000]);
     };
+
+    // page.commands.initEditor = () => {
+    //     var editor = new FroalaEditor("div#froala", {}, function () {
+    //         $("#editorConfirmBtn").on("click", () => {
+    //             console.log(editor);
+    //             console.log(editor.html.get());
+    //         });
+    //     });
+    // };
 
     return () => {
         page.commands.loadData.handleLoadData();
         page.commands.initCarousel();
+        // page.commands.initEditor();
     };
 };
 $(() => {
