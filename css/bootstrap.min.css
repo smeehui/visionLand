@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Arial,Verdana,sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -92,7 +92,7 @@ abbr[data-original-title] {
 address {
   margin-bottom: 1rem;
   font-style: normal;
-  line-height: inherit; }
+  line-height: Arial,Verdana,sans-serif; }
 
 ol,
 ul,
@@ -149,10 +149,10 @@ a {
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
-  color: inherit;
+  color: Arial,Verdana,sans-serif;
   text-decoration: none; }
   a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-    color: inherit;
+    color: Arial,Verdana,sans-serif;
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
@@ -192,7 +192,7 @@ caption {
   caption-side: bottom; }
 
 th {
-  text-align: inherit; }
+  text-align: Arial,Verdana,sans-serif; }
 
 label {
   display: inline-block;
@@ -211,9 +211,9 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
+  font-family: Arial,Verdana,sans-serif;
+  font-size: Arial,Verdana,sans-serif;
+  line-height: Arial,Verdana,sans-serif; }
 
 button,
 input {
@@ -265,8 +265,8 @@ legend {
   padding: 0;
   margin-bottom: .5rem;
   font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
+  line-height: Arial,Verdana,sans-serif;
+  color: Arial,Verdana,sans-serif;
   white-space: normal; }
 
 progress {
@@ -285,7 +285,7 @@ progress {
   -webkit-appearance: none; }
 
 ::-webkit-file-upload-button {
-  font: inherit;
+  font: Arial,Verdana,sans-serif;
   -webkit-appearance: button; }
 
 output {
@@ -304,10 +304,10 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: Arial,Verdana,sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit; }
+  color: Arial,Verdana,sans-serif; }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -423,7 +423,7 @@ code {
   color: #e83e8c;
   word-break: break-word; }
   a > code {
-    color: inherit; }
+    color: Arial,Verdana,sans-serif; }
 
 kbd {
   padding: 0.2rem 0.4rem;
@@ -441,8 +441,8 @@ pre {
   font-size: 87.5%;
   color: #212529; }
   pre code {
-    font-size: inherit;
-    color: inherit;
+    font-size: Arial,Verdana,sans-serif;
+    color: Arial,Verdana,sans-serif;
     word-break: normal; }
 
 .pre-scrollable {
@@ -1610,7 +1610,7 @@ select.form-control:focus::-ms-value {
   padding-top: calc(0.375rem + 1px);
   padding-bottom: calc(0.375rem + 1px);
   margin-bottom: 0;
-  font-size: inherit;
+  font-size: Arial,Verdana,sans-serif;
   line-height: 1.5; }
 
 .col-form-label-lg {
@@ -1784,7 +1784,7 @@ textarea.form-control {
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
   border-color: #7cbd1e; }
   .was-validated .custom-file-input:valid ~ .custom-file-label::after, .custom-file-input.is-valid ~ .custom-file-label::after {
-    border-color: inherit; }
+    border-color: Arial,Verdana,sans-serif; }
 
 .was-validated .custom-file-input:valid ~ .valid-feedback,
 .was-validated .custom-file-input:valid ~ .valid-tooltip, .custom-file-input.is-valid ~ .valid-feedback,
@@ -1869,7 +1869,7 @@ textarea.form-control {
 .was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
   border-color: #f23a2e; }
   .was-validated .custom-file-input:invalid ~ .custom-file-label::after, .custom-file-input.is-invalid ~ .custom-file-label::after {
-    border-color: inherit; }
+    border-color: Arial,Verdana,sans-serif; }
 
 .was-validated .custom-file-input:invalid ~ .invalid-feedback,
 .was-validated .custom-file-input:invalid ~ .invalid-tooltip, .custom-file-input.is-invalid ~ .invalid-feedback,
@@ -2607,7 +2607,7 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: 400;
   color: #212529;
-  text-align: inherit;
+  text-align: Arial,Verdana,sans-serif;
   white-space: nowrap;
   background-color: transparent;
   border: 0; }
@@ -3323,7 +3323,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  line-height: inherit;
+  line-height: Arial,Verdana,sans-serif;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
@@ -4069,7 +4069,7 @@ input[type="button"].btn-block {
   border-radius: 0.25rem; }
 
 .alert-heading {
-  color: inherit; }
+  color: Arial,Verdana,sans-serif; }
 
 .alert-link {
   font-weight: 700; }
@@ -4081,7 +4081,7 @@ input[type="button"].btn-block {
     top: 0;
     right: 0;
     padding: 0.75rem 1.25rem;
-    color: inherit; }
+    color: Arial,Verdana,sans-serif; }
 
 .alert-primary {
   color: #101f47;
@@ -4238,7 +4238,7 @@ input[type="button"].btn-block {
 .list-group-item-action {
   width: 100%;
   color: #495057;
-  text-align: inherit; }
+  text-align: Arial,Verdana,sans-serif; }
   .list-group-item-action:hover, .list-group-item-action:focus {
     color: #495057;
     text-decoration: none;
@@ -4743,7 +4743,7 @@ button.close {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: inherit;
+  color: Arial,Verdana,sans-serif;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -7314,12 +7314,12 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; }
   .table-dark {
-    color: inherit; }
+    color: Arial,Verdana,sans-serif; }
     .table-dark th,
     .table-dark td,
     .table-dark thead th,
     .table-dark tbody + tbody {
       border-color: #dee2e6; }
   .table .thead-dark th {
-    color: inherit;
+    color: Arial,Verdana,sans-serif;
     border-color: #dee2e6; } }
