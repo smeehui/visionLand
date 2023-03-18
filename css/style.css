@@ -1217,4 +1217,15 @@ a:hover {
   width: 327px !important;
 }
 
+#news-search-btn {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 21px;
+}
+#news-search-btn i {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

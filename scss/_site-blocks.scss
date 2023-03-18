@@ -630,3 +630,13 @@
         width: 327px !important;
     }
 }
+#news-search-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 21px;
+    i {
+        vertical-align: middle;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+}
