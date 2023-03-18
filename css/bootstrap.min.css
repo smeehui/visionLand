@@ -6210,6 +6210,7 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
+  background-color: #000;
   margin-top: 0rem !important; }
 
 .mr-4,
