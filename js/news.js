@@ -45,7 +45,7 @@ const newsPage = () => {
         const { title, cover, previewText, id } = news;
         return `
                   <div
-                     class="w-100"
+                     class="col-md-6 col-lg-4 col-sm-12 mb-4"
                      data-aos="fade-up"
                      data-aos-delay="100"
                         >
@@ -102,13 +102,23 @@ const newsPage = () => {
         });
         page.elements.NewsOwl.trigger("play.owl.autoplay", [2000]);
         page.elements.RelatedNewsOwl.owlCarousel({
-            items: 3,
             loop: true,
             stagePadding: 0,
-            itemClass: "col-md-6 col-lg-4 col-sm-12 mb-4 owl-item",
+            itemClass: "owl-item news-owl-item",
             margin: 20,
-            nav: false,
             dots: true,
+            nav: false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:2,
+                },
+                1000:{
+                    items:3,
+                }
+            }
         })
     };
 

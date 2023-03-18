@@ -1213,4 +1213,8 @@ a:hover {
   margin: 20px auto;
 }
 
+.news-owl-item * {
+  width: 327px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
