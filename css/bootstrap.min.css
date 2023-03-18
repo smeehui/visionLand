@@ -396,8 +396,8 @@ mark,
     content: "\2014 \00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; }
+  /* height: 255px; */
+  max-width: 100%; }
 
 .img-thumbnail {
   padding: 0.25rem;
