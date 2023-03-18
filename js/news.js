@@ -31,6 +31,7 @@ const newsPage = () => {
                 page.elements.newsContainer.prepend(newCard);
                 page.elements.newsColumn.prepend(newRow);
             });
+            page.commands.initCarousel();
         });
     };
 
@@ -44,11 +45,11 @@ const newsPage = () => {
         const { title, cover, previewText, id } = news;
         return `
                   <div
-                     class="col-md-6 col-lg-4 col-sm-12 mb-4"
+                     class="w-100"
                      data-aos="fade-up"
                      data-aos-delay="100"
-               >
-                     <a href="news/${id}"
+                        >
+                     <a href="news-details.html"
                         ><img
                            src=${cover}
                            class="news-img"
@@ -81,9 +82,10 @@ const newsPage = () => {
     };
 
     page.commands.initCarousel = () => {
-        page.elements.Owl = $(".owl-carousel");
+        page.elements.NewsOwl = $(".news-carousel");
+        page.elements.RelatedNewsOwl = $(".relate-news-carousel");
 
-        page.elements.Owl.owlCarousel({
+        page.elements.NewsOwl.owlCarousel({
             items: 1,
             loop: true,
             stagePadding: 0,
@@ -98,7 +100,16 @@ const newsPage = () => {
                 '<span class="icon-arrow_forward">',
             ],
         });
-        page.elements.Owl.trigger("play.owl.autoplay", [2000]);
+        page.elements.NewsOwl.trigger("play.owl.autoplay", [2000]);
+        page.elements.RelatedNewsOwl.owlCarousel({
+            items: 3,
+            loop: true,
+            stagePadding: 0,
+            itemClass: "col-md-6 col-lg-4 col-sm-12 mb-4 owl-item",
+            margin: 20,
+            nav: false,
+            dots: true,
+        })
     };
 
     // page.commands.initEditor = () => {
@@ -112,7 +123,6 @@ const newsPage = () => {
 
     return () => {
         page.commands.loadData.handleLoadData();
-        page.commands.initCarousel();
         // page.commands.initEditor();
     };
 };
