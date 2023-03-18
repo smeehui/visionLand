@@ -245,6 +245,9 @@
 }
 
 .property-specs-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -253,6 +256,7 @@
         margin-right: 10px;
         margin-bottom: 10px;
     }
+
 }
 .property-specs {
     display: block;
@@ -266,20 +270,19 @@
 
 .site-section-title {
     h2 {
-        text-transform: uppercase;
         color: $black;
         font-weight: 700;
         font-size: 2rem;
-        letter-spacing: 0.1em;
     }
 }
 
 .form-search {
-    background: #36655a73;
+    background: rgb(0 125 242);
     position: relative;
     z-index: 1;
     padding: 3rem 2rem;
     box-shadow: 0 0px 30px 0px rbga(0, 0, 0, 1);
+    border-radius: 20px;
     label {
         text-transform: uppercase;
         font-size: 13px;
@@ -291,8 +294,8 @@
     }
     .btn[type="submit"] {
         border-radius: 15px;
-        padding: 0 40px;
-        height: 35px;
+        padding: 0 23px;
+        height: 28px;
         margin-right: 5px;
         display: flex;
         justify-content: center;
@@ -525,7 +528,7 @@
                 }
                 &[aria-expanded="true"] {
                     &:before {
-                        font-family: "icomoon";
+                        font-family: "Arial,Verdana,sans-serif";
                         position: absolute;
                         content: "\e316";
                         transition: 0.3s all ease;
@@ -538,7 +541,7 @@
                     &:before {
                         content: "\e313";
                         color: #ccc;
-                        font-family: "icomoon";
+                        font-family: "Arial,Verdana,sans-serif";
                         position: absolute;
 
                         transition: 0.3s all ease;
@@ -597,7 +600,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    height: 47px;
+    height: 38px;
     max-width: 10%;
 }
 
@@ -606,7 +609,17 @@
 }
 
 .news-img {
-    width: 320px;
+    width: 100%;
     height: 220px;
     border-radius: 5px;
+}
+
+.news-img main{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.p-4 {
+    padding: 1.5rem 1.5rem 1.5rem 0rem !important;
 }
