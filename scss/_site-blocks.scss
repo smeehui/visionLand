@@ -555,9 +555,10 @@
 }
 
 .widget {
-    padding: 40px;
+    padding: 0 10px;
     margin-bottom: 30px;
     .widget-title {
+        padding-top: 10px;
         font-size: 14px;
         font-weight: bold;
         color: $black;
@@ -610,4 +611,17 @@
     width: 320px;
     height: 220px;
     border-radius: 5px;
+}
+
+#news-details-title {
+    margin-bottom: 40px;
+}
+#news-details-subtitle {
+}
+.news-details-img {
+    max-width: 80% !important;
+    align-self: center;
+    margin: 20px auto;
+}
+.news-details-content {
 }
