@@ -1180,19 +1180,29 @@ a:hover {
   opacity: 0.5;
 }
 
-.select-wrap input {
-  position: relative;
-  float: left;
+#search-form {
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5411764706);
 }
 
-#search {
+#search-btn {
   position: absolute;
-  right: 0;
-  display: flex;
-  justify-content: right;
+  right: 0.5%;
+  top: 50%;
   align-items: center;
-  height: 38px;
   max-width: 10%;
+  transform: translateY(-50%);
+  outline: rgba(254, 131, 117, 0.8705882353);
+  border: 1px solid rgba(254, 131, 117, 0.8705882353);
+  color: rgba(254, 131, 117, 0.8705882353);
+  text-shadow: 0 0 2px #007df2;
+  background-color: rgba(254, 131, 117, 0.3568627451);
+}
+#search-btn:hover {
+  background-color: #007df2;
+  border: 1px solid #007df2;
+  color: #fff;
 }
 
 .site-navbar .site-navigation .site-menu > li > a {

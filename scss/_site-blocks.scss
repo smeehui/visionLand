@@ -589,22 +589,30 @@
         }
     }
 }
-
-.select-wrap input {
-    position: relative;
-    float: left;
+#search-form {
+    margin-top: -100px;
+    border-radius: 20px;
+    background-color: #0000008a;
 }
 
-#search {
+#search-btn {
     position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: right;
+    right: 0.5%;
+    top: 50%;
     align-items: center;
-    height: 38px;
     max-width: 10%;
+    transform: translateY(-50%);
+    outline: #fe8375de;
+    border: 1px solid #fe8375de;
+    color: #fe8375de;
+    text-shadow: 0 0 2px #007df2;
+    background-color: #fe83755b;
+    &:hover {
+        background-color: #007df2;
+        border: 1px solid #007df2;
+        color: #fff;
+    }
 }
-
 .site-navbar .site-navigation .site-menu > li > a {
     letter-spacing: 0;
 }
