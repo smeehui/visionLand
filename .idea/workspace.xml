@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="datatable">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/temp-mnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/temp-mnt.html" afterDir="false" />
+    <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductResDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -25,21 +28,11 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="development" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +50,6 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
@@ -67,37 +59,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DEV/visionLand/src/main/resources/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Module4/spb-ajax-banking-jwt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;595ad8b7a96d174f41eb66b1c12e96ce&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redshift&quot;,
-      &quot;mysql&quot;
-    ]
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hah.model.dto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DEV\visionLand\src\main\resources\templates" />
-      <recent name="D:\DEV\visionLand\src\main\resources\static\assets\vendor" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DEV\visionLand\src\main\resources\static\assets\css" />
-      <recent name="D:\DEV\visionLand\src\main\resources\templates\layouts\management\" />
-      <recent name="D:\DEV\visionLand\src\main\resources\templates\management" />
-      <recent name="D:\DEV\visionLand\src\main\resources\templates\layouts\business" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hah.model.dto" />
       <recent name="com.hah.model" />
     </key>
   </component>
@@ -113,46 +86,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="" />
+      <changelist id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="" />
       <created>1679279403734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679279403734</updated>
       <workItem from="1679279407099" duration="1392000" />
-      <workItem from="1679296884319" duration="4766000" />
-      <workItem from="1679304638500" duration="534000" />
-      <workItem from="1679305505715" duration="3131000" />
-      <workItem from="1679315655668" duration="6328000" />
+      <workItem from="1679296884319" duration="9191000" />
+      <workItem from="1679322013991" duration="259000" />
     </task>
-    <task id="LOCAL-00001" summary="UserRole">
-      <created>1679307428785</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679307428785</updated>
-    </task>
-    <task id="LOCAL-00002" summary="UserRole">
-      <created>1679307458645</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679307458645</updated>
-    </task>
-    <task id="LOCAL-00003" summary="UserRole">
-      <created>1679307992311</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679307992311</updated>
-    </task>
-    <task id="LOCAL-00004" summary="datatable">
-      <created>1679321948238</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679321948238</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +110,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="UserRole" />
-    <MESSAGE value="datatable" />
-    <option name="LAST_COMMIT_MESSAGE" value="datatable" />
   </component>
 </project>
