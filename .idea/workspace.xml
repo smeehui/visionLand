@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="UserRole">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/data_table/data_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/right_side_bar/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/right_side_bar/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/management/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/management/news.html" afterDir="false" />
+    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="datatable">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/temp-mnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/temp-mnt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +122,7 @@
       <workItem from="1679296884319" duration="4766000" />
       <workItem from="1679304638500" duration="534000" />
       <workItem from="1679305505715" duration="3131000" />
-      <workItem from="1679315655668" duration="6196000" />
+      <workItem from="1679315655668" duration="6328000" />
     </task>
     <task id="LOCAL-00001" summary="UserRole">
       <created>1679307428785</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679307992311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="datatable">
+      <created>1679321948238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679321948238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UserRole" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserRole" />
+    <MESSAGE value="datatable" />
+    <option name="LAST_COMMIT_MESSAGE" value="datatable" />
   </component>
 </project>
