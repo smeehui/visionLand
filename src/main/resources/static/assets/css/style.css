@@ -1191,10 +1191,6 @@ a:hover {
   right: 0.5%;
   top: 50%;
   align-items: center;
-<<<<<<< HEAD:css/style.css
-  height: 38px;
-=======
->>>>>>> fe43650f699279392b7e221904f8e31f57e27310:src/main/resources/static/assets/css/style.css
   max-width: 10%;
   transform: translateY(-50%);
   outline: rgba(254, 131, 117, 0.8705882353);

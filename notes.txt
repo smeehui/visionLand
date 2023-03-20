@@ -1,0 +1,51 @@
+- LocationRegion.
+
+- Product:
+    - ID
+    - ID user
+    - ID LocationRegion
+    - name
+    - price
+    - area
+    - direction
+    - description
+    - ID productType
+
+-   ProductType
+    - ID
+    - name ENUM
+
+-   ProductImage
+    - ID
+    - ID product
+
+
+-   User
+    - ID
+    - name
+    - phone
+    - email
+
+- News
+    - ID
+    - title
+    - subtitle
+    - images
+    - content
+
+- RecruitmentNews
+    -ID
+    -Content
+
+- NewsImage
+    - ID
+    - ID news
+
+
+- Gallery
+    - ID
+    - title
+
+- GalleryImage
+    - ID
+    - ID gallery

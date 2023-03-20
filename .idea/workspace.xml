@@ -1,331 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9d0aefb-4757-49a6-ba1e-a4ca23decae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/VisionLandDevApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/cloudinary/CloudinaryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/cloudinary/UploaderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/DataInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/EmailExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/TimestampNotExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/exception/UnauthorizedProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/DependenciesBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/SecurityInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/UserSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/utils/AppUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/utils/UploadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/utils/ValidateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_footer/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_head_links/head_links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_header/header_bg_slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_header/mobile_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_header/site_header_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/site_scripts/main_scripts/site_main_scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/temp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hah/VisionLandDevApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/aos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/bootstrap-datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fl-bigmug-line.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/fl-bigmug-line.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mediaelementplayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/mediaelementplayer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/progress-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/progress-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bigmug-line/fl-bigmug-line.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/bigmug-line/fl-bigmug-line.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bigmug-line/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/bigmug-line/fl-bigmug-line.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bigmug-line/fl-bigmug-line.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/bigmug-line/fl-bigmug-line.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/bigmug-line/fl-bigmug-line.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/bigmug-line/fl-bigmug-line.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/backup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/Flaticon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/Flaticon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/Flaticon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/Flaticon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/_flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/_flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/_flaticon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/_flaticon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/font/flaticon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/font/flaticon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon-2/license/license.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon-2/license/license.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/backup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/_flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/_flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/_flaticon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/font/flaticon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/font/flaticon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/flaticon/license/license.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/flaticon/license/license.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/Read Me.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/demo-files/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/demo-files/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/demo-files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/demo-files/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/icomoon/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/7522034975281832386.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Artboard1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/aeonmallhue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundblue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero_bg_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hero_bg_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hero_bg_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hero_bg_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/img_8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/managerCompany.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/managerCompany_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/managerCompany_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/manor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/manorcrown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/person_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/person_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/person_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/person_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/person_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/top10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vision_logo_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hero_bg_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vision_logo_1_edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vision_logo_congty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_logo_congty.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vision_nhanvien.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_nhanvien.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vision_nhanvien_edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4185906071072_5745c706cca25285fc6aebbe618d786e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4185906071072_5745c706cca25285fc6aebbe618d786e.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4185906076986_72155d82398361bcacb124463b575e24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4185906076986_72155d82398361bcacb124463b575e24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4185906091815_e1080108c61ba6971d83ce01254e2fc5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4185906091815_e1080108c61ba6971d83ce01254e2fc5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187426049512_43c5a506c3975eba732f03bc1404dba4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187476075877_a7d4c826ac9d570cb159996b6767ca54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187476098188_0f21aa610ffb5a12e8cd4badf7512829.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187476098188_d4437cf117b6d861fc5d1ffd5f26cc57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187476136145_5305c6064a8770d8b942a879beaeb446.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187476136145_5f003bbe55703afca06eb4f0caa02b92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z4187487784816_977c591628d40cefd9b0aef249d109a5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/aos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app-base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/circleaudioplayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/circleaudioplayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.stellar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mediaelement-and-player.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/mediaelement-and-player.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/news.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link-css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/properties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/style.scss" afterDir="false" />
+    <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/GalleryImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_site-base.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/7522034975281832386.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/7522034975281832386.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/Artboard1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/Artboard1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/aeonmallhue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/aeonmallhue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/backgroundblue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/backgroundblue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/managerCompany_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/manor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/manor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/manorcrown.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/manorcrown.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/top10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/top10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_logo_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_logo_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_logo_1_edit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_logo_1_edit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_nhanvien_edit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/vision_nhanvien_edit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187426049512_43c5a506c3975eba732f03bc1404dba4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187426049512_43c5a506c3975eba732f03bc1404dba4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476075877_a7d4c826ac9d570cb159996b6767ca54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476075877_a7d4c826ac9d570cb159996b6767ca54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476098188_0f21aa610ffb5a12e8cd4badf7512829.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476098188_0f21aa610ffb5a12e8cd4badf7512829.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476098188_d4437cf117b6d861fc5d1ffd5f26cc57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476098188_d4437cf117b6d861fc5d1ffd5f26cc57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476136145_5305c6064a8770d8b942a879beaeb446.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476136145_5305c6064a8770d8b942a879beaeb446.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476136145_5f003bbe55703afca06eb4f0caa02b92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187476136145_5f003bbe55703afca06eb4f0caa02b92.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187487784816_977c591628d40cefd9b0aef249d109a5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/z4187487784816_977c591628d40cefd9b0aef249d109a5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/app-base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/app-base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/news.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2N4vPEFcX60bmKRb1swgv4WydmV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2NG98WelCSUuDQaRaQpdvbbiGK4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
+    "last_opened_file_path": "G:/Module4/spb-ajax-banking-jwt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "595ad8b7a96d174f41eb66b1c12e96ce"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hah.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VisionLandDevApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="visionLandDev.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hah.VisionLandDevApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9d0aefb-4757-49a6-ba1e-a4ca23decae6" name="Changes" comment="" />
-      <created>1678936142554</created>
+      <changelist id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="" />
+      <created>1679279403734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678936142554</updated>
-      <workItem from="1678936143761" duration="724000" />
-      <workItem from="1679278780786" duration="298000" />
+      <updated>1679279403734</updated>
+      <workItem from="1679279407099" duration="1392000" />
+      <workItem from="1679296884319" duration="4766000" />
     </task>
     <servers />
   </component>
