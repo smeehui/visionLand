@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Arial, Verdana, sans-serif;
 }
 
 ::-moz-selection {
@@ -669,9 +669,9 @@ a:hover {
 .site-blocks-cover h1 {
   font-weight: 900;
   color: #fff;
-  font-weight: normal;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  font-size: xxx-large;
 }
 .site-blocks-cover p {
   color: #fff;
@@ -862,6 +862,9 @@ a:hover {
 }
 
 .property-specs-wrap {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -884,19 +887,18 @@ a:hover {
 }
 
 .site-section-title h2 {
-  text-transform: uppercase;
   color: #000;
   font-weight: 700;
   font-size: 2rem;
-  letter-spacing: 0.1em;
 }
 
 .form-search {
-  background: rgba(54, 101, 90, 0.4509803922);
+  background: rgb(0, 125, 242);
   position: relative;
   z-index: 1;
   padding: 3rem 2rem;
   box-shadow: 0 0px 30px 0px rbga(0, 0, 0, 1);
+  border-radius: 20px;
 }
 .form-search label {
   text-transform: uppercase;
@@ -909,8 +911,8 @@ a:hover {
 }
 .form-search .btn[type=submit] {
   border-radius: 15px;
-  padding: 0 40px;
-  height: 35px;
+  padding: 0 23px;
+  height: 28px;
   margin-right: 5px;
   display: flex;
   justify-content: center;
@@ -1128,7 +1130,7 @@ a:hover {
   left: 0;
 }
 .unit-8 .accordion-item .heading > a[aria-expanded=true]:before {
-  font-family: "icomoon";
+  font-family: "Arial,Verdana,sans-serif";
   position: absolute;
   content: "\e316";
   transition: 0.3s all ease;
@@ -1139,7 +1141,7 @@ a:hover {
 .unit-8 .accordion-item .heading > a[aria-expanded=false]:before {
   content: "\e313";
   color: #ccc;
-  font-family: "icomoon";
+  font-family: "Arial,Verdana,sans-serif";
   position: absolute;
   transition: 0.3s all ease;
 }
@@ -1149,10 +1151,11 @@ a:hover {
 }
 
 .widget {
-  padding: 40px;
+  padding: 0 10px;
   margin-bottom: 30px;
 }
 .widget .widget-title {
+  padding-top: 10px;
   font-size: 14px;
   font-weight: bold;
   color: #000;
@@ -1177,19 +1180,29 @@ a:hover {
   opacity: 0.5;
 }
 
-.select-wrap input {
-  position: relative;
-  float: left;
+#search-form {
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5411764706);
 }
 
-#search {
+#search-btn {
   position: absolute;
-  right: 0;
-  display: flex;
-  justify-content: right;
+  right: 0.5%;
+  top: 50%;
   align-items: center;
-  height: 47px;
   max-width: 10%;
+  transform: translateY(-50%);
+  outline: rgba(254, 131, 117, 0.8705882353);
+  border: 1px solid rgba(254, 131, 117, 0.8705882353);
+  color: rgba(254, 131, 117, 0.8705882353);
+  text-shadow: 0 0 2px #007df2;
+  background-color: rgba(254, 131, 117, 0.3568627451);
+}
+#search-btn:hover {
+  background-color: #007df2;
+  border: 1px solid #007df2;
+  color: #fff;
 }
 
 .site-navbar .site-navigation .site-menu > li > a {
@@ -1197,9 +1210,67 @@ a:hover {
 }
 
 .news-img {
-  width: 320px;
+  width: 100%;
   height: 220px;
   border-radius: 5px;
+}
+
+#news-details-title {
+  margin-bottom: 40px;
+}
+
+#news-details-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.news-details-img {
+  max-width: 80% !important;
+  align-self: center;
+  margin: 20px auto;
+}
+
+.news-owl-item * {
+  width: 327px !important;
+}
+
+.news-img main {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.p-4 {
+  padding: 1.5rem 1.5rem 1.5rem 0rem !important;
+}
+
+#news-search-btn {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 21px;
+}
+#news-search-btn i {
+  vertical-align: middle;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#news-list-container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+#news-list-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+#news-list-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  min-height: 100px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top, #a2e1fc 0%, #81d9ff 50%, #62cbf5 51%, #2ab0ed 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
