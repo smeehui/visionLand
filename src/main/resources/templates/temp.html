@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Homeland &mdash; Colorlib Website Template</title>
+    <th:block th:replace="layouts/site_head_links/head_links::links"/>
+</head>
+
+<body>
+
+    <div class="site-loader"></div>
+
+    <div class="site-wrap">
+        <th:block th:replace="layouts/site_header/mobile_menu::mobile_menu"/>
+        <th:block th:replace="layouts/site_header/site_header_nav::nav"/>
+    </div>
+
+    <th:block th:replace="layouts/site_header/header_bg_slider::background"/>
+
+        <!--   Phần từ hết slider đầu trang đến footer-->
+
+
+    <th:block th:replace="layouts/site_footer/footer::footer"/>
+    <th:block th:replace="layouts/site_scripts/main_scripts/site_main_scripts::scripts"/>
+</body>
+
+</html>
