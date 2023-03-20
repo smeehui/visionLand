@@ -21,6 +21,7 @@ public class NewsImage extends ImageEntity{
     @GenericGenerator(name = "uuid", strategy = "uuid2")
     private String id;
 
+
     @ManyToOne
     @JoinColumn(name = "news_id", referencedColumnName = "id", nullable = false)
     private News news;

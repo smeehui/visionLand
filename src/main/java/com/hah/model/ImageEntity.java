@@ -1,14 +1,10 @@
 package com.hah.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
+@MappedSuperclass
 public abstract class ImageEntity extends BaseEntity {
-
-
 
     @Column(name = "file_name")
     private String fileName;

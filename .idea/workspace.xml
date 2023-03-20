@@ -4,46 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/GalleryImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
+    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/api/NewsAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsImageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsResDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -60,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,16 +71,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Module4/spb-ajax-banking-jwt",
+    "last_opened_file_path": "D:/Git/case_emart_spb_ajax",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "spring.configuration.checksum": "595ad8b7a96d174f41eb66b1c12e96ce"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redshift",
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hah.model.dto" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hah.model" />
     </key>
@@ -112,13 +106,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="" />
+      <changelist id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="" />
       <created>1679279403734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679279403734</updated>
       <workItem from="1679279407099" duration="1392000" />
       <workItem from="1679296884319" duration="4766000" />
+      <workItem from="1679304638500" duration="534000" />
+      <workItem from="1679305505715" duration="1883000" />
     </task>
     <servers />
   </component>
