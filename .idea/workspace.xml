@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/api/NewsAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsImageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsResDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/ERole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="UserRole">
+      <change afterPath="$PROJECT_DIR$/dbdump/user_role/vision_land/user.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +61,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Git/case_emart_spb_ajax",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "D:/DEV/visionLand/dbdump/user_role",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,8 +105,23 @@
       <workItem from="1679279407099" duration="1392000" />
       <workItem from="1679296884319" duration="4766000" />
       <workItem from="1679304638500" duration="534000" />
-      <workItem from="1679305505715" duration="1883000" />
+      <workItem from="1679305505715" duration="2429000" />
     </task>
+    <task id="LOCAL-00001" summary="UserRole">
+      <created>1679307428785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679307428785</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UserRole">
+      <created>1679307458645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679307458645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UserRole" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserRole" />
   </component>
 </project>
