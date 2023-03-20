@@ -17,6 +17,7 @@ public class ProductType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Enumerated(EnumType.STRING)
     private EProductType productType;
 
 }

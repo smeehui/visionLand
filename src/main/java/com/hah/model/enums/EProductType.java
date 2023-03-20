@@ -10,6 +10,5 @@ import lombok.NoArgsConstructor;
 public enum EProductType {
     PROMOTING("NỔI BẬT"),
     REGULAR("BÌNH THƯỜNG");
-
     private String value;
 }

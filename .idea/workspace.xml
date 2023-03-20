@@ -5,40 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/GalleryImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ImageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/NewsImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductResDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero_bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Module4/spb-ajax-banking-jwt",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "595ad8b7a96d174f41eb66b1c12e96ce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Module4/spb-ajax-banking-jwt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;595ad8b7a96d174f41eb66b1c12e96ce&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hah.model.dto" />
       <recent name="com.hah.model" />
     </key>
   </component>
@@ -118,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679279403734</updated>
       <workItem from="1679279407099" duration="1392000" />
-      <workItem from="1679296884319" duration="4766000" />
+      <workItem from="1679296884319" duration="9191000" />
+      <workItem from="1679322013991" duration="259000" />
     </task>
     <servers />
   </component>
