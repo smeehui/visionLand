@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @GetMapping
     public String home(){
-        return "/index";
+        return "index";
     }
 }
