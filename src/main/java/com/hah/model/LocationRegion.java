@@ -15,12 +15,13 @@ import lombok.experimental.Accessors;
 @Setter
 @Entity
 @Table(name = "location_region")
+@Accessors(chain = true)
 
 public class LocationRegion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     @Column(name = "province_id")
     private String provinceId;
