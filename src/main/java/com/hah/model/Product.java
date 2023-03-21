@@ -37,6 +37,7 @@ public class Product extends BaseEntity {
 
     private BigDecimal area;
 
+    @Column(columnDefinition = "TEXT")
     private String description;
 
     @OneToOne

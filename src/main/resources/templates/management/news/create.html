@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <title>SB Admin 2 - Tables</title>
+
+    <th:block th:replace="layouts/management/head_links/head_links::news"/>
+    <th:block th:replace="layouts/management/head_links/head_links::editor"/>
+
+</head>
+
+<body id="page-top">
+
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+
+    <th:block th:replace="layouts/management/right_side_bar/sidebar::sidebar"/>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <th:block th:replace="layouts/management/head_nav/top_nav::topnav"/>
+
+            <!-- Begin Page Content -->
+
+            <div class="container-fluid">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Tạo mới bài đăng</h6>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="newsTitleCre" class="form-label">Tiêu đề</label>
+                                <input placeholder="Tiêu đề không quá 255 ký tự..." type="text" class="form-control"
+                                       id="newsTitleCre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subtitleCre" class="form-label">Tóm tắt</label>
+                                <textarea rows="3" class="form-control" id="subtitleCre"
+                                          placeholder="Nhập nội dung tóm tắt..."></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contentCre" class="form-label">Nội dung tin tức</label>
+                                <div id="contentCre"></div>
+                            </div>
+                            <div class="mb-3">
+                                <button type="button" id="newsCreConfirmBtn"
+                                        class="btn btn-outline-success float-right">Tạo mới
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- .container-fluid -->
+
+        </div>
+        <!-- End of Main Content -->
+
+        <th:block th:replace="layouts/management/footer/footer::footer"/>
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<th:block th:replace="layouts/management/scripts/scripts::neccessary"/>
+<th:block th:replace="layouts/management/scripts/scripts::datatable"/>
+<th:block th:replace="layouts/management/scripts/scripts::editor"/>
+
+<script>
+
+    const createNewsPage = () => {
+            let page = {
+                urls: {
+                    getAllNews: API_DOMAIN + "news",
+                    uploadNewsImage: API_DOMAIN + "api/news/image"
+                },
+                elements: {},
+                commands: {
+                    loadData: {},
+                },
+            };
+
+            page.elements.newsCreConfirmBtn = $("#newsCreConfirmBtn");
+
+
+            page.commands.initEditor = () => {
+                let editor = new FroalaEditor("div#contentCre", {
+                    // Set the image upload parameter.
+                    imageUploadParam: 'image_param',
+
+                    // Set the image upload URL.
+                    imageUploadURL: page.urls.uploadNewsImage,
+
+                    // Additional upload params.
+                    imageUploadParams: {id: 'my_editor'},
+
+                    // Set request type.
+                    imageUploadMethod: 'POST',
+
+                    // Set max image size to 5MB.
+                    imageMaxSize: 5 * 1024 * 1024,
+
+                    // Allow to upload PNG and JPG.
+                    imageAllowedTypes: ['jpeg', 'jpg', 'png'],
+
+                    events: {
+                        'image.beforeUpload': function (images) {
+                            // Return false if you want to stop the image upload.
+                        },
+                        'image.uploaded': function (response) {
+                            // Image was uploaded to the server.
+                        },
+                        'image.inserted': function ($img, response) {
+                            // Image was inserted in the editor.
+                        },
+                        'image.replaced': function ($img, response) {
+                            // Image was replaced in the editor.
+                        },
+                        'image.error': function (error, response) {
+                            // Bad link.
+                            if (error.code === 1) {
+                                console.log("Lỗi 1") }
+
+                            // No link in upload response.
+                            else if (error.code === 2) {
+                                console.log("Lỗi 2") }
+
+                            // Error during image upload.
+                            else if (error.code === 3) {
+                                console.log("Lỗi 3") }
+
+                            // Parsing response failed.
+                            else if (error.code === 4) {
+                                console.log("Lỗi 4") }
+
+                            // Image too text-large.
+                            else if (error.code === 5) {
+                                console.log("Lỗi 5") }
+
+                            // Invalid image type.
+                            else if (error.code === 6) {
+                                console.log("Lỗi 6") }
+
+                            // Image can be uploaded only to same domain in IE 8 and IE 9.
+                            else if (error.code === 7) {
+                                console.log("Lỗi 7") }
+
+                            // Response contains the original server response to the request if available.
+                        }
+                    }
+                    }
+                    , function () {
+                        page.elements.newsCreConfirmBtn.on("click", () => {
+                            editor.image
+                        });
+                    });
+            }
+            ;
+
+            return () => {
+                page.commands.initEditor();
+            };
+        }
+    ;
+    $(() => {
+        const newPageInit = createNewsPage();
+        newPageInit();
+    });
+
+</script>
+
+</body>
+
+</html>

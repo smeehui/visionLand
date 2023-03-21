@@ -4,14 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductResDTO.java" afterDir="false" />
+    <list default="true" id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="merge a Hoàng 20/3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/UserPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/repository/NewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/INewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/userService/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/userService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/froala-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/froala-image.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/froala-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/froala-image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/management/news/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/enums/EProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/api/NewsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/api/NewsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsImageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/NewsImageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/utils/UploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/app-base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/app-base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/head_links/head_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/head_links/head_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/scripts/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/scripts/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/management/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/management/news/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +50,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,16 +87,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Module4/spb-ajax-banking-jwt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DEV/visionLand/src/main/resources/templates/management/news&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;595ad8b7a96d174f41eb66b1c12e96ce&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEV\visionLand\src\main\resources\templates\management\news" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DEV\visionLand\src\main\resources\templates\management\news" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hah.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hah.model.dto" />
       <recent name="com.hah.model" />
@@ -86,7 +124,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="" />
+      <changelist id="fb722573-fbad-45a4-925d-93a4d58f79f2" name="Changes" comment="merge a Hoàng 20/3" />
       <created>1679279403734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -94,7 +132,16 @@
       <workItem from="1679279407099" duration="1392000" />
       <workItem from="1679296884319" duration="9191000" />
       <workItem from="1679322013991" duration="259000" />
+      <workItem from="1679365355738" duration="16000" />
     </task>
+    <task id="LOCAL-00001" summary="merge a Hoàng 20/3">
+      <created>1679322720255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679322720255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +157,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge a Hoàng 20/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge a Hoàng 20/3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hah/controller/api/NewsAPI.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
