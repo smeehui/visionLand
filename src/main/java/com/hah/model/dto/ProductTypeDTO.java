@@ -1,6 +1,9 @@
 package com.hah.model.dto;
 
 import com.hah.model.ProductType;
+import com.hah.model.enums.EProductType;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,8 +17,6 @@ public class ProductTypeDTO {
 
     private int id;
 
-    public ProductType toProductType() {
-        return new ProductType()
-                .setId(id);
-    }
+    private EProductType productType;
+
 }

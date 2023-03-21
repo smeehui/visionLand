@@ -21,7 +21,7 @@ public class LocationRegion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(name = "province_id")
     private String provinceId;

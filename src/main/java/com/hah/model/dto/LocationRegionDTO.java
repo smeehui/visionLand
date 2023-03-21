@@ -25,17 +25,6 @@ public class LocationRegionDTO implements Validator {
     private String wardId;
     private String wardName;
 
-    public LocationRegion toLocationRegion() {
-        return new LocationRegion()
-                .setId(id)
-                .setProvinceId(provinceId)
-                .setProvinceName(provinceName)
-                .setDistrictId(districtId)
-                .setDistrictName(districtName)
-                .setWardId(wardId)
-                .setWardName(wardName);
-    }
-
     @Override
     public boolean supports(Class<?> clazz) {
         return LocationRegionDTO.class.isAssignableFrom(clazz);

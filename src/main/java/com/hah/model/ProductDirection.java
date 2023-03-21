@@ -19,7 +19,7 @@ public class ProductDirection {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Enumerated(EnumType.STRING)
     private EDirection direction;

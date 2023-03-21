@@ -17,7 +17,7 @@ public class Gallery extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @OneToMany(mappedBy = "gallery")
     private List<GalleryImage> galleryImage;

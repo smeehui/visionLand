@@ -5,19 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/LocationRegionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductDirectionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductImageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductTypeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/product/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/product/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/LocationRegionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/LocationRegionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductDirectionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductDirectionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductImageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductImageDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductResDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductResDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,26 +63,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Module4/caseStudy/CaseStudy-QuanLiBanHang(5) - sua anh",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "595ad8b7a96d174f41eb66b1c12e96ce"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Module4/caseStudy/CaseStudy-QuanLiBanHang(5) - sua anh&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;595ad8b7a96d174f41eb66b1c12e96ce&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hah.model.dto" />
@@ -99,7 +108,8 @@
       <updated>1679279403734</updated>
       <workItem from="1679279407099" duration="1392000" />
       <workItem from="1679296884319" duration="9191000" />
-      <workItem from="1679322013991" duration="4774000" />
+      <workItem from="1679322013991" duration="5012000" />
+      <workItem from="1679359561937" duration="1703000" />
     </task>
     <servers />
   </component>

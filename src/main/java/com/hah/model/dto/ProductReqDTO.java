@@ -26,7 +26,6 @@ public class ProductReqDTO {
     private String districtName;
     private String wardId;
     private String wardName;
-
     private BigDecimal price;
 
     private BigDecimal area;
@@ -40,31 +39,5 @@ public class ProductReqDTO {
     private List<ProductImageDTO> productImage;
 
     private MultipartFile file;
-
-    public Product toProduct(User user, LocationRegion locationRegion,List<ProductImage> productImage ){
-        return new Product()
-                .setId(id)
-                .setUser(user)
-                .setLocationRegion(locationRegion)
-                .setName(name)
-                .setPrice(price)
-                .setArea(area)
-                .setDescription(description)
-                .setProductDirection(productDirection.toProductDirection())
-                .setProductType(productType.toProductType())
-                .setProductImage(productImage);
-    }
-
-    public LocationRegion toLocationRegion() {
-        return new LocationRegion()
-                .setId(id)
-                .setProvinceId(provinceId)
-                .setProvinceName(provinceName)
-                .setDistrictId(districtId)
-                .setDistrictName(districtName)
-                .setWardId(wardId)
-                .setWardName(wardName);
-    }
-
 
 }

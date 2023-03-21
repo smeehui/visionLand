@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 public class ProductType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     @Enumerated(EnumType.STRING)
     private EProductType productType;
 
