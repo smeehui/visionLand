@@ -1,7 +1,11 @@
-package com.hah.model;
+package com.hah.model.dto;
 
+import com.hah.model.User;
+import com.hah.model.UserRole;
 import com.hah.model.enums.ERole;
-import jakarta.persistence.*;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,21 +14,18 @@ import lombok.experimental.Accessors;
 
 import java.util.List;
 
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Getter
 @Setter
-@Entity
-@Table(name = "user_role")
+@NoArgsConstructor
+@AllArgsConstructor
 @Accessors(chain = true)
-public class UserRole {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class UserRoleDTO {
     private Long id;
-    @Enumerated(EnumType.STRING)
+
     private ERole name;
 
-    @OneToMany(mappedBy = "role")
     private List<User> roles;
+
+
 }

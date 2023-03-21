@@ -35,6 +35,29 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/head_links/head_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/head_links/head_links.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/scripts/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layouts/management/scripts/scripts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/management/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/management/news/news.html" afterDir="false" />
+    <list default="true" id="470a0119-1c14-4f7f-860e-450e1a66159f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/product/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hah/service/newsService/product/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/controller/API/ProductAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Gallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/LocationRegion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/RecuitmentNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/LocationRegionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/LocationRegionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductDirectionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductDirectionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductImageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductImageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/ProductTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hah/model/dto/UserDTO.java" afterDir="false" />
+>>>>>>> hoang_dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +76,7 @@
         <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,6 +112,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/DEV/visionLand/src/main/resources/templates/management/news&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Module4/caseStudy/CaseStudy-QuanLiBanHang(5) - sua anh&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -133,6 +158,8 @@
       <workItem from="1679296884319" duration="9191000" />
       <workItem from="1679322013991" duration="259000" />
       <workItem from="1679365355738" duration="16000" />
+      <workItem from="1679322013991" duration="5012000" />
+      <workItem from="1679359561937" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="merge a Hoàng 20/3">
       <created>1679322720255</created>

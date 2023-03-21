@@ -15,6 +15,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Entity
 @Table(name = "location_region")
+@Accessors(chain = true)
 
 public class LocationRegion {
 
